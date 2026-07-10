@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Dataset files
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep the data directories
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Large dataset formats
+*.csv
+*.pcap
+*.pcapng
+*.parquet
+*.zip
+*.tar
+*.gz
+
+# Saved machine-learning models
+results/models/*
+!results/models/.gitkeep
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Credentials and private files
+.env
+kaggle.json
+credentials.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
